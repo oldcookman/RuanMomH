@@ -1,0 +1,7 @@
+E:\project\RuanMouDemo01\bin\Debug\RuanMouDemo01.exe.config
+E:\project\RuanMouDemo01\bin\Debug\RuanMouDemo01.exe
+E:\project\RuanMouDemo01\bin\Debug\RuanMouDemo01.pdb
+E:\project\RuanMouDemo01\obj\Debug\RuanMouDemo01.csprojAssemblyReference.cache
+E:\project\RuanMouDemo01\obj\Debug\RuanMouDemo01.csproj.CoreCompileInputs.cache
+E:\project\RuanMouDemo01\obj\Debug\RuanMouDemo01.exe
+E:\project\RuanMouDemo01\obj\Debug\RuanMouDemo01.pdb
