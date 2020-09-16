@@ -1,7 +1,4 @@
 ﻿using Ruanmou.Framework;
-using Ruanmou.Framework.AttributeExtend;
-using Ruanmou.Framework.Model;
-using Ruanmou.Libraries.IDAL;
 using Ruanmou.Libraries.Model;
 using System;
 using System.Collections.Generic;
@@ -12,116 +9,43 @@ using System.Threading.Tasks;
 
 namespace Ruanmou.Libraries.DAL
 {
-    public class BaseDAL : IBaseDAL
+    public class BaseDAL
     {
-
         /// <summary>
-        /// 约束是为了正确的调用，才能int id
+        /// 通过ID查询出所对应的实体值
         /// </summary>
         /// <typeparam name="T"></typeparam>
-        /// <param name="id"></param>
-        public T Find<T>(int id) where T : BaseModel
+        /// <param name="Id"></param>
+        public T Find<T>(int Id) where T : BaseModel 
         {
             Type type = typeof(T);
-            //string columnString = string.Join(",", type.GetProperties().Select(p => $"[{p.GetColumnName()}]"));
-            //string sql = $"SELECT {columnString} FROM [{type.Name}] WHERE Id={id}";
-            string sql = $"{TSqlHelper<T>.FindSql}{id};";
-            T t = null;// (T)Activator.CreateInstance(type);
-            using (SqlConnection conn = new SqlConnection(StaticConstant.SqlServerConnString))
+            // 获取当前对象的属性,并且进行拼接
+            string columString = string.Join(",", type.GetProperties().Select(p => $"[{p.Name}]"));
+            // 拼接sql
+            string sql = $"SELECT {columString} From [{type.Name}] Where Id = {Id}";
+            // 通过反射给对象赋值
+            T t =  (T)Activator.CreateInstance(type);
+            using (SqlConnection conn = new SqlConnection(StaticConstants.SqlServerConn))
             {
-                SqlCommand command = new SqlCommand(sql, conn);
                 conn.Open();
-                SqlDataReader reader = command.ExecuteReader();
-                List<T> list = this.ReaderToList<T>(reader);
-                t = list.FirstOrDefault();
-                //if (reader.Read())//表示有数据  开始读
-                //{
-                //    foreach (var prop in type.GetProperties())
-                //    {
-                //        prop.SetValue(t, reader[prop.Name] is DBNull ? null : reader[prop.Name]);
-                //    }
-                //}
+                // SqlCommand("执行的sql语句","连接的字符串对象");
+                SqlCommand comm = new SqlCommand(sql,conn);
+
+                SqlDataReader sqlDataReader = comm.ExecuteReader();
+                if (sqlDataReader.Read())
+                {
+                    foreach (var prop in type.GetProperties())
+                    {
+                        // 在这里没有考虑数据库中的数据为空的情况 
+                        // 解决办法 1. 实体类 加上可为 ？ 2. 赋值时进行空值判断
+                        // dbnull 是指数据库中的数据为空  null 是指对象没有引用空  ""和String.Empty 这两个都是表示空字符串
+
+                        prop.SetValue(t,sqlDataReader[prop.Name] is DBNull ? null : sqlDataReader[prop.Name]);
+                    }
+                }
             }
             return t;
-        }
 
-        public List<T> FindAll<T>() where T : BaseModel
-        {
-            Type type = typeof(T);
-            string sql = TSqlHelper<T>.FindAllSql;
-            List<T> list = new List<T>();
-            using (SqlConnection conn = new SqlConnection(StaticConstant.SqlServerConnString))
-            {
-                SqlCommand command = new SqlCommand(sql, conn);
-                conn.Open();
-                SqlDataReader reader = command.ExecuteReader();
-                list = this.ReaderToList<T>(reader);
-            }
-            return list;
         }
-
-        public void Update<T>(T t) where T : BaseModel
-        {
-            if (!t.Validate<T>())
-            {
-                throw new Exception("数据不正确");
-            }
-
-            Type type = typeof(T);
-            var propArray = type.GetProperties().Where(p => !p.Name.Equals("Id"));
-            string columnString = string.Join(",", propArray.Select(p => $"[{p.GetColumnName()}]=@{p.GetColumnName()}"));
-            var parameters = propArray.Select(p => new SqlParameter($"@{p.GetColumnName()}", p.GetValue(t) ?? DBNull.Value)).ToArray();
-            //必须参数化  否则引号？  或者值里面还有引号
-            string sql = $"UPDATE [{type.Name}] SET {columnString} WHERE Id={t.Id}";
-            using (SqlConnection conn = new SqlConnection(StaticConstant.SqlServerConnString))
-            {
-                using (SqlCommand command = new SqlCommand(sql, conn))
-                {
-                    command.Parameters.AddRange(parameters);
-                    conn.Open();
-                    int iResult = command.ExecuteNonQuery();
-                    if (iResult == 0)
-                        throw new Exception("Update数据不存在");
-                }
-            }
-        }
-
-        /// <summary>
-        /// 自己完成
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="t"></param>
-        public void Insert<T>(T t) where T : BaseModel
-        {
-        }
-        /// <summary>
-        /// 自己完成
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="id"></param>
-        public void Delete<T>(int id) where T : BaseModel
-        {
-        }
-        #region PrivateMethod
-        private List<T> ReaderToList<T>(SqlDataReader reader) where T : BaseModel
-        {
-            Type type = typeof(T);
-            List<T> list = new List<T>();
-            while (reader.Read())//表示有数据  开始读
-            {
-                T t = (T)Activator.CreateInstance(type);
-                foreach (var prop in type.GetProperties())
-                {
-                    object oValue = reader[prop.GetColumnName()];
-                    if (oValue is DBNull)
-                        oValue = null;
-                    prop.SetValue(t, oValue);//除了guid和枚举
-                }
-                list.Add(t);
-            }
-            return list;
-        }
-        #endregion
-
     }
 }

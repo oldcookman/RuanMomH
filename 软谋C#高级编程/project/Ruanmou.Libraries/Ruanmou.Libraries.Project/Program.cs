@@ -1,5 +1,4 @@
-﻿ using Ruanmou.Framework.AttributeExtend;
-using Ruanmou.Libraries.Factory;
+﻿using Ruanmou.Libraries.DAL;
 using Ruanmou.Libraries.IDAL;
 using Ruanmou.Libraries.Model;
 using System;
@@ -38,26 +37,13 @@ namespace Ruanmou.Libraries.Project
             try
             {
                 Console.WriteLine("This is Homework Lesson");
-
-                IBaseDAL baseDAL = DALFactory.CreateInstance();// new BaseDAL();
-                Company company = baseDAL.Find<Company>(8);
-                Company company1 = baseDAL.Find<Company>(1);
-                Company company2 = baseDAL.Find<Company>(2);
-
-                List<Company> list = baseDAL.FindAll<Company>();
-
-                User user = baseDAL.Find<User>(1);
-
-
-                //List<User> list = baseDAL.FindAll<User>();
-
-                //company.Name = "腾讯课堂234564576754";
-                ////company.Validate();
-                //baseDAL.Update<Company>(company);
-
-                user.Name += "1";
-                baseDAL.Update(user);
-                //
+                BaseDAL baseDAL = new BaseDAL();
+                // Company 经测试没有问题
+                // 
+                Company company = baseDAL.Find<Company>(4);
+                //User user = baseDAL.Find<User>(1);
+                Console.WriteLine(company.ToString()); 
+               
             }
             catch (Exception ex)//UI层必须把异常catch住
             {

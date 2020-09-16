@@ -56,10 +56,6 @@
       <Project>{b1407429-aa71-43da-ab81-2059e5f71b96}</Project>
       <Name>Ruanmou.Libraries.DAL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Ruanmou.Libraries.Factory\Ruanmou.Libraries.Factory.csproj">
-      <Project>{a3519ad0-fe12-4762-a57f-15877173f48d}</Project>
-      <Name>Ruanmou.Libraries.Factory</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Ruanmou.Libraries.IDAL\Ruanmou.Libraries.IDAL.csproj">
       <Project>{d0ba7748-b228-49cc-b2dc-909b2c0422a7}</Project>
       <Name>Ruanmou.Libraries.IDAL</Name>

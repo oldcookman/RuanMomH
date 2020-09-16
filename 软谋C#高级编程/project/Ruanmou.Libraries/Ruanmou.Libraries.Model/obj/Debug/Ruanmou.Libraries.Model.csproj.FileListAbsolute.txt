@@ -6,3 +6,12 @@ D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou
 D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Libraries.Model\obj\Debug\Ruanmou.Libraries.Model.csprojResolveAssemblyReference.cache
 D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Libraries.Model\bin\Debug\Ruanmou.Framework.dll
 D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Libraries.Model\bin\Debug\Ruanmou.Framework.pdb
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.Model\bin\Debug\Ruanmou.Libraries.Model.dll
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.Model\bin\Debug\Ruanmou.Libraries.Model.pdb
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.Model\bin\Debug\Ruanmou.Framework.dll
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.Model\bin\Debug\Ruanmou.Framework.pdb
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.Model\obj\Debug\Ruanmou.Libraries.Model.csprojAssemblyReference.cache
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.Model\obj\Debug\Ruanmou.Libraries.Model.csproj.CoreCompileInputs.cache
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.Model\obj\Debug\Ruanmou.Libraries.Model.csproj.CopyComplete
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.Model\obj\Debug\Ruanmou.Libraries.Model.dll
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.Model\obj\Debug\Ruanmou.Libraries.Model.pdb

@@ -10,3 +10,16 @@ D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou
 D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Libraries.DAL\bin\Debug\Ruanmou.Libraries.Model.pdb
 D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Libraries.DAL\bin\Debug\Ruanmou.Libraries.IDAL.dll
 D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Libraries.DAL\bin\Debug\Ruanmou.Libraries.IDAL.pdb
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.DAL\bin\Debug\Ruanmou.Libraries.DAL.dll
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.DAL\bin\Debug\Ruanmou.Libraries.DAL.pdb
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.DAL\bin\Debug\Ruanmou.Framework.dll
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.DAL\bin\Debug\Ruanmou.Libraries.IDAL.dll
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.DAL\bin\Debug\Ruanmou.Libraries.Model.dll
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.DAL\bin\Debug\Ruanmou.Framework.pdb
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.DAL\bin\Debug\Ruanmou.Libraries.IDAL.pdb
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.DAL\bin\Debug\Ruanmou.Libraries.Model.pdb
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.DAL\obj\Debug\Ruanmou.Libraries.DAL.csprojAssemblyReference.cache
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.DAL\obj\Debug\Ruanmou.Libraries.DAL.csproj.CoreCompileInputs.cache
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.DAL\obj\Debug\Ruanmou.Libraries.DAL.csproj.CopyComplete
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.DAL\obj\Debug\Ruanmou.Libraries.DAL.dll
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.DAL\obj\Debug\Ruanmou.Libraries.DAL.pdb

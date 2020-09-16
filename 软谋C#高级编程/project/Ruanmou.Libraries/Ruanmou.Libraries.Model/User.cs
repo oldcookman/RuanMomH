@@ -1,6 +1,4 @@
-﻿using Ruanmou.Framework.AttributeExtend;
-using Ruanmou.Framework.Model;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,11 +23,7 @@ namespace Ruanmou.Libraries.Model
         public int CompanyId { get; set; }
 
         public string CompanyName { get; set; }
-
-        //public int State { get; set; }
-
-        [Column("State")]
-        public int Status { get; set; }
+        public int State { get; set; }
 
         public int UserType { get; set; }
 

@@ -1,5 +1,4 @@
-﻿using Ruanmou.Framework.Model;
-using Ruanmou.Libraries.Model;
+﻿using Ruanmou.Libraries.Model;
 using System.Collections.Generic;
 
 namespace Ruanmou.Libraries.IDAL

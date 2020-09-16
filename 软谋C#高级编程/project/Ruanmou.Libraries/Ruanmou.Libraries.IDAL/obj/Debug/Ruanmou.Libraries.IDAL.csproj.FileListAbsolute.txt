@@ -8,3 +8,14 @@ D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou
 D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Libraries.IDAL\bin\Debug\Ruanmou.Libraries.Model.dll
 D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Libraries.IDAL\bin\Debug\Ruanmou.Framework.pdb
 D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Libraries.IDAL\bin\Debug\Ruanmou.Libraries.Model.pdb
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.IDAL\obj\Debug\Ruanmou.Libraries.IDAL.csprojAssemblyReference.cache
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.IDAL\obj\Debug\Ruanmou.Libraries.IDAL.csproj.CoreCompileInputs.cache
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.IDAL\obj\Debug\Ruanmou.Libraries.IDAL.dll
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.IDAL\obj\Debug\Ruanmou.Libraries.IDAL.pdb
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.IDAL\bin\Debug\Ruanmou.Libraries.IDAL.dll
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.IDAL\bin\Debug\Ruanmou.Libraries.IDAL.pdb
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.IDAL\bin\Debug\Ruanmou.Framework.dll
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.IDAL\bin\Debug\Ruanmou.Libraries.Model.dll
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.IDAL\bin\Debug\Ruanmou.Framework.pdb
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.IDAL\bin\Debug\Ruanmou.Libraries.Model.pdb
+E:\projectCode\软谋C#高级编程\project\Ruanmou.Libraries\Ruanmou.Libraries.IDAL\obj\Debug\Ruanmou.Libraries.IDAL.csproj.CopyComplete
