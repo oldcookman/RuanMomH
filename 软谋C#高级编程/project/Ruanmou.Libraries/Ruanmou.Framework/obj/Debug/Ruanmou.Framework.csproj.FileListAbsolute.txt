@@ -1,0 +1,6 @@
+D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Framework\bin\Debug\Ruanmou.Framework.dll
+D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Framework\bin\Debug\Ruanmou.Framework.pdb
+D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Framework\obj\Debug\Ruanmou.Framework.csproj.CoreCompileInputs.cache
+D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Framework\obj\Debug\Ruanmou.Framework.dll
+D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Framework\obj\Debug\Ruanmou.Framework.pdb
+D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Framework\obj\Debug\Ruanmou.Framework.csprojResolveAssemblyReference.cache

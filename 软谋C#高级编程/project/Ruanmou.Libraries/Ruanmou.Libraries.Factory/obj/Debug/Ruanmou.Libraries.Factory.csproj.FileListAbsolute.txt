@@ -1,0 +1,10 @@
+D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Libraries.Factory\bin\Debug\Ruanmou.Libraries.Factory.dll
+D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Libraries.Factory\bin\Debug\Ruanmou.Libraries.Factory.pdb
+D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Libraries.Factory\bin\Debug\Ruanmou.Framework.dll
+D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Libraries.Factory\bin\Debug\Ruanmou.Libraries.IDAL.dll
+D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Libraries.Factory\bin\Debug\Ruanmou.Framework.pdb
+D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Libraries.Factory\bin\Debug\Ruanmou.Libraries.IDAL.pdb
+D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Libraries.Factory\obj\Debug\Ruanmou.Libraries.Factory.csprojResolveAssemblyReference.cache
+D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Libraries.Factory\obj\Debug\Ruanmou.Libraries.Factory.csproj.CoreCompileInputs.cache
+D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Libraries.Factory\obj\Debug\Ruanmou.Libraries.Factory.dll
+D:\ruanmou\online11\20180503Advanced11Course4Libraries\Ruanmou.Libraries\Ruanmou.Libraries.Factory\obj\Debug\Ruanmou.Libraries.Factory.pdb
